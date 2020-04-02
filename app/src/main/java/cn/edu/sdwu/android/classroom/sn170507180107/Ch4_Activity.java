@@ -94,7 +94,7 @@ public class Ch4_Activity extends AppCompatActivity implements View.OnFocusChang
         }
     }
 
-    public void stsrtMain(View view){
+    public void startMain(View view){
         Intent intent=new Intent(this,MainActivity.class);
         startActivity(intent);
 
